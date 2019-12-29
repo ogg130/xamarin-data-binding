@@ -1,21 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.Text;
 
 namespace BethanysPieShopStockApp.Model
 {
+
     public class Pie : INotifyPropertyChanged
     {
-        private int _id { get; set; }
-        private string _pieName { get; set; }
-
-        private double _price { get; set; }
+        private int _id;
+        private string _pieName;
+        private string _description;
+        private double _price;
+        private string _imageUrl;
+        private bool _inStock;
+        private DateTime _availableFromDate;
 
         public int Id
         {
             get => _id;
             set
             {
-                _id = value;
+                _id = value; 
                 RaisePropertyChanged(nameof(Id));
             }
         }
@@ -30,6 +36,16 @@ namespace BethanysPieShopStockApp.Model
             }
         }
 
+        public string Description
+        {
+            get => _description;
+            set
+            {
+                _description = value;
+                RaisePropertyChanged(nameof(Description));
+            }
+        }
+
         public double Price
         {
             get => _price;
@@ -40,12 +56,45 @@ namespace BethanysPieShopStockApp.Model
             }
         }
 
+        public string ImageUrl
+        {
+            get => _imageUrl;
+            set
+            {
+                _imageUrl = value; 
+                RaisePropertyChanged(nameof(ImageUrl));
+            }
+        }
+
+        public bool InStock
+        {
+            get => _inStock;
+            set
+            {
+                _inStock = value;
+                RaisePropertyChanged(nameof(InStock));
+            }
+        }
+
+
+        public DateTime AvailableFromDate
+        {
+            get => _availableFromDate;
+            set
+            {
+                _availableFromDate = value; 
+                RaisePropertyChanged(nameof(AvailableFromDate));
+            }
+        }
+
+        public List<string> Ingredients { get; set; }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         public void RaisePropertyChanged(string propertyName)
         {
-            // If propertyChange is not null, invoke event
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
+
 }

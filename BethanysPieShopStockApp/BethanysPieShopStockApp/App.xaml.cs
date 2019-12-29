@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace BethanysPieShopStockApp
 {
     public partial class App : Application
@@ -10,7 +11,7 @@ namespace BethanysPieShopStockApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new PieOverviewPage());
         }
 
         protected override void OnStart()

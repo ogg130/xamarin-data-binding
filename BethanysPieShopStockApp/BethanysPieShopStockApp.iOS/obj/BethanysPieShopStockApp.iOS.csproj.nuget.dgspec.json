@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj": {}
+    "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj": {
+    "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj",
+        "projectUniqueName": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj",
         "projectName": "BethanysPieShopStockApp.iOS",
-        "projectPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj",
+        "projectPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\BethanysPieShopStockApp.iOS.csproj",
         "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\obj\\",
+        "outputPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
-                "projectPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj"
+              "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
+                "projectPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj"
               }
             }
           }
@@ -42,13 +42,9 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
-            "Xamarin.Essentials": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[3.4.0.1008975, )"
             }
           }
         }
@@ -65,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
+    "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
+        "projectUniqueName": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
         "projectName": "BethanysPieShopStockApp",
-        "projectPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
+        "projectPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
         "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\obj\\",
+        "outputPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -110,13 +106,9 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Xamarin.Essentials": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[3.4.0.1008975, )"
             }
           },
           "imports": [

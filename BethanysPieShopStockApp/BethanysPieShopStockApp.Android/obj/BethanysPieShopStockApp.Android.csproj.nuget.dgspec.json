@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj": {}
+    "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj": {
+    "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj",
+        "projectUniqueName": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj",
         "projectName": "BethanysPieShopStockApp.Android",
-        "projectPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj",
+        "projectPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\BethanysPieShopStockApp.Android.csproj",
         "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\obj\\",
+        "outputPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -23,73 +23,61 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid90"
+          "monoandroid81"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid90": {
+          "monoandroid81": {
             "projectReferences": {
-              "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
-                "projectPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj"
+              "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
+                "projectPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj"
               }
             }
           }
         }
       },
       "frameworks": {
-        "monoandroid90": {
+        "monoandroid81": {
           "dependencies": {
-            "Xamarin.Android.Support.Core.Utils": {
-              "target": "Package",
-              "version": "[28.0.0.1, )"
-            },
-            "Xamarin.Android.Support.CustomTabs": {
-              "target": "Package",
-              "version": "[28.0.0.1, )"
-            },
             "Xamarin.Android.Support.Design": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[27.0.2.1, )"
             },
             "Xamarin.Android.Support.v4": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[27.0.2.1, )"
             },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[27.0.2.1, )"
             },
             "Xamarin.Android.Support.v7.CardView": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[27.0.2.1, )"
             },
             "Xamarin.Android.Support.v7.MediaRouter": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
-            },
-            "Xamarin.Essentials": {
-              "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[27.0.2.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[3.4.0.1008975, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
+    "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
+        "projectUniqueName": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
         "projectName": "BethanysPieShopStockApp",
-        "projectPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
+        "projectPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\BethanysPieShopStockApp.csproj",
         "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robert\\source\\repos\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\obj\\",
+        "outputPath": "D:\\repos\\xamarin-data-binding\\BethanysPieShopStockApp\\BethanysPieShopStockApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -127,13 +115,9 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Xamarin.Essentials": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[3.4.0.1008975, )"
             }
           },
           "imports": [
